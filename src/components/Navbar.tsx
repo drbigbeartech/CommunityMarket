@@ -16,7 +16,7 @@ export default function Navbar() {
           <div className="flex items-center space-x-4">
             {user ? (
               <>
-                <Link to="/dashboard" className="text-white hover:text-accent">
+                <Link to="/dashboard\" className="text-white hover:text-accent">
                   Dashboard
                 </Link>
                 <button
